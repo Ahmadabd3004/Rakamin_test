@@ -2,7 +2,7 @@
 function HelloWorld(props) {
   return (
     <>
-        <h1>{props.name}</h1>
+        <h1 className="text-2xl">Halo {props.name} !</h1>
     </>
   );
 }
