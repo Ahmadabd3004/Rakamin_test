@@ -1,16 +1,14 @@
 
-import './App.css';
-import CounterExample from './Components/CounterExample';
+import Footer from './Components/Footer';
+import Header from './Components/Header';
 import HelloWorld from './Components/HelloWorld';
-import HelloWorld2 from './Components/HelloWorld2';
 
 function App() {
   return (
     <>
-      {/* <HelloWorld name="Ini cara pertama"/>
-      <HelloWorld2 name="Ini cara kedua"/> */}
-
-      <CounterExample/>
+      <Header/>
+      <HelloWorld name="Ini cara pertama"/>
+      <Footer/>
     </>
   );
 }
